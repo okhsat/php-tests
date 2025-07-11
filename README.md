@@ -1,2 +1,2 @@
-## Pure Test Codes
-Some useful pure test codes for training!
+## PHP Test Codes
+Some useful PHP test codes for training!
