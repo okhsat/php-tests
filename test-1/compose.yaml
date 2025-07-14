@@ -1,9 +1,6 @@
 services:
   app:
     build:
-      args:
-        user: okhtay
-        uid: 1000
       context: ./
       dockerfile: Dockerfile
     image: pure-app
