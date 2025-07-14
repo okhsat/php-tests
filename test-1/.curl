@@ -1,0 +1,7 @@
+curl -X GET http://127.0.0.1:8000/applications/104
+
+curl -X GET -I http://127.0.0.1:8000/applications/104
+
+curl -X POST -H "Content-Type: application/json" -d '{"name": "Okhtay", "email": "okhtay@mail.com", "products": [{"id":"105"}], "scheme": "12_months"}' http://127.0.0.1:8000/applications
+
+curl -X POST -H "Content-Type: application/json" -d '{"name": "Okhtay", "email": "okhtay@mail.com", "products": [{"id":"105"}], "scheme": "12_months"}' -w "%{http_code}" http://127.0.0.1:8000/applications

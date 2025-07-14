@@ -6,7 +6,7 @@ $schemes = [
     '12_months' => ['months' => 12, 'interest' => 0.10], // +10% total   
     '24_months' => ['months' => 24, 'interest' => 0.20]  // +20% total
 ];
-$productsData = json_decode(file_get_contents('./products.json', true));
+$productsData = json_decode(file_get_contents('../data/products.json', true));
 $products = [];
 
 if ( count($productsData) > 0 ) {
